@@ -52,3 +52,22 @@ const pizzaTopping = ["Pineapple", "Olives", "Anchovies"]
 const controversialPizzaToppings = [...pizzaTopping]
 
 console.log(controversialPizzaToppings)
+
+// Exercise 5
+
+// Duplicate the following object and spread its values into a new variable `myCar`.
+
+const car1 = {
+  make: "Audi",
+  model: "q5"
+}
+
+// Change the `model` property of `myCar` to 'q7'. Log both objects.
+
+// Your code here
+
+const myCar = { ...car1 }
+myCar.model = "q7"
+
+console.log("Original car: ", car1)
+console.log("Cloned car: ", myCar)
