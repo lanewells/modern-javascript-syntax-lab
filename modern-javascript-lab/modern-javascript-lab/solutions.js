@@ -108,3 +108,19 @@ function funkyCat(noun = "cat", adjective = "white") {
 funkyCat()
 
 funkyCat("dog", "black")
+
+// Exercise 9
+
+// Convert the following `if...else` statement in to a ternary:
+
+let pizza = "tasty"
+
+if (pizza === "tasty") {
+  console.log("yum")
+} else {
+  console.log("yuck")
+}
+
+// Your code here
+
+let tasty = pizza === "tasty" ? "yum" : "yuck"
