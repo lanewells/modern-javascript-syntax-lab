@@ -18,10 +18,25 @@ console.log(newArray)
 
 // Given the following array, use destructuring to pull out the first and second values and place them into variables. Log both variables.
 
-const pizzaToppings = ["Pineapple", "Olives", "Anchovies"]
+//const pizzaToppings = ["Pineapple", "Olives", "Anchovies"]
 
 // Your code here
 
 const [firstTopping, secondTopping] = pizzaToppings
 
 console.log(firstTopping, secondTopping)
+
+// Exercise 3
+
+// Given the following object, use destructuring to create variables `make` and `model` that will hold the respective values.
+
+const car = {
+  make: "Audi",
+  model: "q5"
+}
+
+// Your code here
+
+const { make, model } = car
+
+console.log(make, model)
