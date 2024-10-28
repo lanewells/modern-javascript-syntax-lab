@@ -18,7 +18,7 @@ console.log(newArray)
 
 // Given the following array, use destructuring to pull out the first and second values and place them into variables. Log both variables.
 
-//const pizzaToppings = ["Pineapple", "Olives", "Anchovies"]
+const pizzaToppings = ["Pineapple", "Olives", "Anchovies"]
 
 // Your code here
 
@@ -40,3 +40,15 @@ const car = {
 const { make, model } = car
 
 console.log(make, model)
+
+// Exercise 4
+
+// Duplicate the following array using the spread operator and assign it to `controversialPizzaToppings`. Then, log the variable.
+
+const pizzaTopping = ["Pineapple", "Olives", "Anchovies"]
+
+// Your code here
+
+const controversialPizzaToppings = [...pizzaTopping]
+
+console.log(controversialPizzaToppings)
